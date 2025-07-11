@@ -1,0 +1,1 @@
+Build an end-to-end healthcare ETL pipeline that transforms disparate healthcare data (HL7 v2, CDA) into FHIR, streams it via Kafka, stores structured data in a Knowledge Graph, and enriches it using LLMs.
