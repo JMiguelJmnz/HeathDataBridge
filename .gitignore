@@ -1,0 +1,11 @@
+# Ignore virtual environment folder
+.venv/
+
+# Optional: Python junk files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code files
+.vscode/
