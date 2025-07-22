@@ -10,7 +10,7 @@ def delivery_report(err, msg):
     if err is not None:
         print(f"Delivery failed: {err}")
     else:
-        print(f"Message delivered to {msg.topic()}" [{msg.partition()}""])
+        print(f"Message delivered to {msg.topic()} [{msg.partition()}]")
 
 topic = "test-topic"
 producer.produce(topic, key="key", value="Hello from Miguel!", callback=delivery_report)

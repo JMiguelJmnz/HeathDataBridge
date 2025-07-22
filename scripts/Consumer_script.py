@@ -18,7 +18,7 @@ while True:
         print(f"Consumer error: {msg.error()}")
         continue
 
-    print("Received message: {msg.value().decode('utf-8)}")
+    print(f"Received message: {msg.value().decode('utf-8')}")
     break
 
 consumer.close()
