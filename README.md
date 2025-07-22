@@ -18,8 +18,8 @@ Docker Desktop (Zookeeper & Kafka Broker)
 📂 Project Structure
 
 HealthDataBridge/
-├── output/fhir/           # FHIR-compliant JSON output
-├── scripts/
+├── output/fhir/           # FHIR-compliant JSON output<br>
+├── scripts/<br>
 │   ├── beneficiary_mapper.py    # Maps CSV data to FHIR Patient
 │   ├── consumer_fhir.py         # Kafka consumer: JSON to FHIR output
 │   ├── producer_csv.py          # CSV producer: sends to Kafka
