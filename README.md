@@ -16,7 +16,7 @@ Confluent Kafka (via Docker Compose)
 Docker Desktop (Zookeeper & Kafka Broker)
 
 📂 Project Structure
-
+```
 HealthDataBridge/
 ├── output/fhir/           # FHIR-compliant JSON output<br>
 ├── scripts/<br>
@@ -28,7 +28,7 @@ HealthDataBridge/
 ├── docker/docker-compose.yml    # Zookeeper & Kafka services
 ├── requirements.txt
 └── README.md
-
+```
 
 🔄 Pipeline Flow
 
